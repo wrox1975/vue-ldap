@@ -1,19 +1,18 @@
 # ldap
 
-## Project setup
+## Clone project
+```
+git clone https://github.com/wrox1975/vue-ldap.git
+```
+
+### Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and builds docker container
 ```
-npm run serve
+docker-compose up --build
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
+##### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
